@@ -2,7 +2,7 @@
 name: "\U0001F41E bug"
 about: 오류를 수정합니다.
 title: "[bug]"
-labels: ''
+labels: bug
 assignees: bkw535
 
 ---

@@ -2,7 +2,7 @@
 name: "✏️ feature"
 about: 기능을 추가합니다.
 title: "[feature]"
-labels: ''
+labels: feature
 assignees: bkw535
 
 ---
