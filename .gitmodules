@@ -1,0 +1,6 @@
+[submodule "Backend"]
+	path = Backend
+	url = https://github.com/SWPC-Team-You-Can-Do-It/ppurisam-Backend.git
+[submodule "Frontend"]
+	path = Frontend
+	url = https://github.com/SWPC-Team-You-Can-Do-It/ppurisam-Frontend.git
