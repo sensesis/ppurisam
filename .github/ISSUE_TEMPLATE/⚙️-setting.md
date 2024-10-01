@@ -3,7 +3,7 @@ name: "⚙️ setting"
 about: 기타 환경을 수정합니다.
 title: "[setting]"
 labels: setting
-assignees: bkw535
+assignees: ''
 
 ---
 

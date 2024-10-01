@@ -3,7 +3,7 @@ name: "♻️ refactor"
 about: 코드를 개선하거나 구조를 변경합니다.
 title: "[refactor]"
 labels: refactor
-assignees: bkw535
+assignees: ''
 
 ---
 
