@@ -1,0 +1,112 @@
+# ppurisam/docker-compose.yml
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    container_name: ppurisam_frontend
+    networks:
+      - ppurisam_network
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - ./frontend/.env:/app/.env
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    depends_on:
+      - backend
+    command: ["npm", "run", "dev"]
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    container_name: ppurisam_backend
+    networks:
+      - ppurisam_network
+    volumes:
+      - ./backend:/app/image
+      - ./backend/.env:/app/.env
+    environment:
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - TOKEN_SECRET_KEY=${TOKEN_SECRET_KEY}
+      - ACCESSTOKEN_PLUSTHOUR=${ACCESSTOKEN_PLUSTHOUR}
+      - REFRESHTOKEN_PLUSHOUR=${REFRESHTOKEN_PLUSHOUR}
+      - SPRING_PROFILES_ACTIVE=dev
+      - SPRING_ELASTICSEARCH_URIS=http://elasticsearch:9200
+      - SPRING_ELASTICSEARCH_USERNAME=elastic
+      - SPRING_ELASTICSEARCH_PASSWORD=1234
+      - CSR_CLIENT_ID=${CSR_CLIENT_ID}
+      - CSR_CLIENT_SECRET=${CSR_CLIENT_SECRET}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    depends_on:
+      database:
+        condition: service_healthy
+      elasticsearch:
+        condition: service_healthy
+    command: ["java", "-jar", "app.jar"] # 필요 시 변경
+
+  database:
+    image: mysql:8.0
+    container_name: ppurisam_db
+    environment:
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./backend/db/ppurisam_data:/var/lib/mysql
+    networks:
+      - ppurisam_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.4
+    container_name: elasticsearch
+    environment:
+      - node.name=elasticsearch-node
+      - cluster.name=search-cluster
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - xpack.security.transport.ssl.enabled=false
+      - xpack.security.http.ssl.enabled=false
+      - ELASTIC_PASSWORD=1234
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200" # HTTP
+      - "9300:9300" # TCP
+    networks:
+      - ppurisam_network
+    healthcheck:
+      test: ["CMD-SHELL", "curl -u elastic:1234 -f http://localhost:9200 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    command: >
+      sh -c "
+        elasticsearch-plugin remove analysis-nori || true &&
+        elasticsearch-plugin install analysis-nori &&
+        elasticsearch"
+
+networks:
+  ppurisam_network:
+    driver: bridge
+
+volumes:
+  es_data:
+  ppurisam_data:
