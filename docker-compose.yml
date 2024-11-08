@@ -45,6 +45,13 @@ services:
       - CSR_CLIENT_ID=${CSR_CLIENT_ID}
       - CSR_CLIENT_SECRET=${CSR_CLIENT_SECRET}
       - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ppurio.api.key=${PPURIO_API_KEY}
+      - ppurio.account=${PPURIO_ACCOUNT}
+      - ppurio.from=${PPURIO_FROM}
+      - ppurio.uri=${PPURIO_URI}
+      - ppurio.authKey=${PPURIO_API_KEY}
+
+
     depends_on:
       database:
         condition: service_healthy
