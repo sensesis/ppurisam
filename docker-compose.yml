@@ -31,6 +31,8 @@ services:
     volumes:
       - ./Backend:/app/image
       - ./Backend/.env:/app/.env
+      - ./Backend/images:/app/images
+
     environment:
       - SPRING_DATASOURCE_URL=jdbc:mysql://database:3306/${MYSQL_DATABASE}
       - SPRING_DATASOURCE_USERNAME=${MYSQL_USER}
