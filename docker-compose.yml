@@ -1,7 +1,7 @@
 services:
   frontend:
     build:
-      context: ./frontend
+      context: ./Frontend
       dockerfile: Dockerfile
     ports:
       - "3000:3000"
@@ -53,13 +53,12 @@ services:
       - ppurio.uri=${PPURIO_URI}
       - ppurio.authKey=${PPURIO_API_KEY}
 
-
     depends_on:
       database:
         condition: service_healthy
       elasticsearch:
         condition: service_healthy
-    command: [ "java", "-jar", "app.jar" ]
+    command: ["java", "-jar", "app.jar"]
   database:
     image: mysql:8.0
     container_name: ppurisam_db
@@ -100,7 +99,8 @@ services:
     networks:
       - ppurisam_network
     healthcheck:
-      test: ["CMD-SHELL", "curl -u elastic:1234 -f http://localhost:9200 || exit 1"]
+      test:
+        ["CMD-SHELL", "curl -u elastic:1234 -f http://localhost:9200 || exit 1"]
       interval: 30s
       timeout: 10s
       retries: 3
