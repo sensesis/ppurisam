@@ -9,9 +9,9 @@ services:
     networks:
       - ppurisam_network
     volumes:
-      - ./frontend:/app
+      - ./Frontend:/app
       - /app/node_modules
-      - ./frontend/.env:/app/.env
+      - ./Frontend/.env:/app/.env
     environment:
       - CHOKIDAR_USEPOLLING=true
       - VITE_BACKEND_URL=${VITE_BACKEND_URL}
@@ -70,7 +70,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - ./backend/db/ppurisam_data:/var/lib/mysql
+      - ./Backend/db/ppurisam_data:/var/lib/mysql
     networks:
       - ppurisam_network
     healthcheck:
@@ -90,7 +90,7 @@ services:
       - xpack.security.transport.ssl.enabled=false
       - xpack.security.http.ssl.enabled=false
       - ELASTIC_PASSWORD=1234
-      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
     volumes:
       - es_data:/usr/share/elasticsearch/data
     ports:
