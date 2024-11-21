@@ -141,6 +141,18 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
+  nginx-exporter:
+    image: nginx/nginx-prometheus-exporter:0.10.0
+    container_name: nginx_prometheus_exporter
+    ports:
+      - "9113:9113" # Prometheus가 메트릭을 수집할 포트
+    command:
+      - -nginx.scrape-uri=http://ppurisam_nginx/metrics
+    depends_on:
+      - nginx
+    networks:
+      - ppurisam_network
+
   grafana:
     image: grafana/grafana:latest
     container_name: ppurisam_grafana
