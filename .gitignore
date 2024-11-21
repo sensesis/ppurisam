@@ -5,3 +5,6 @@
 ### db ###
 db/
 *.db
+
+# Grafana data directory
+grafana/data/
