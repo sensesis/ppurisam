@@ -1,0 +1,10 @@
+- type: filestream
+  id: nginx-error-log-input
+  enabled: true
+  paths:
+    - /var/log/backend_logs/nginx-error.log
+  exclude_files: ['*.gz']
+  fields:
+    index_name: "nginx-error-log"
+    log_type: "nginx_error_log"
+  fields_under_root: true

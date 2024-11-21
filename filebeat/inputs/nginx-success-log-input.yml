@@ -1,0 +1,10 @@
+- type: filestream
+  id: nginx-success-log-input
+  enabled: true
+  paths:
+    - /var/log/backend_logs/nginx-success.log
+  exclude_files: ['*.gz']
+  fields:
+    index_name: "nginx-success-log"
+    log_type: "nginx_success_log"
+  fields_under_root: true
