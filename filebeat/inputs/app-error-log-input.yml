@@ -1,0 +1,10 @@
+- type: filestream
+  id: app-error-log-input
+  enabled: true
+  paths:
+    - /var/log/backend_logs/app-error.log
+  exclude_files: ['*.gz']
+  fields:
+    index_name: "app-error-log"
+    log_type: "application_error_log"
+  fields_under_root: true
