@@ -60,10 +60,6 @@
 <br>
 <br>
 
-### [모니터링&로그관리]
-![image](https://github.com/user-attachments/assets/82359acc-eafb-4734-ad27-3d82fe7d20f2)
-<br>
-
 ## ⚙️시스템 아키텍처
 ![img](https://github.com/user-attachments/assets/2a2f5174-f894-44cb-8bab-63d0d310f438)
 
@@ -118,6 +114,10 @@
 ## 💾ERD
 <img src="https://github.com/user-attachments/assets/db930415-1ebd-4161-86b2-5a218c2fd607">
 <br>
+<br>
+
+## 📊모니터링&로그관리
+![image](https://github.com/user-attachments/assets/82359acc-eafb-4734-ad27-3d82fe7d20f2)
 <br>
 
 ## 🌐API
