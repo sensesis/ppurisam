@@ -31,27 +31,29 @@
 
 <br>
 
-### [초기화면]
-<이미지>
-<br>
-
 ### [회원가입&로그인]
 ![ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/687e7945-dcc1-4e42-a7b2-fbd29291e51f)
 
 <br>
 
 ### [홈 화면]
-<이미지>
+![온보딩화면](https://github.com/user-attachments/assets/bdb2d910-aba5-4b05-8a12-df63cf1bef97)
+
+<br>
+
+### [주소록]
+![ezgif com-video-to-gif-converter (2)](https://github.com/user-attachments/assets/cb15b9dc-4b09-4b4b-bac5-bfe4a0d31bf6)
+
 <br>
 
 ### [문자 보내기]
 
 
-
 <br>
 
-### [주소록]
-<이미지>
+
+### [챗봇]
+
 <br>
 
 ### [발송조회]
@@ -59,7 +61,7 @@
 <br>
 
 ### [마이페이지]
-![KakaoTalk_Photo_2024-11-26-22-32-12 001 (online-video-cutter com)](https://github.com/user-attachments/assets/18ede28a-9627-438a-a240-377e747dd10e)
+![ezgif com-video-to-gif-converter (3)](https://github.com/user-attachments/assets/5a59804d-8dd9-4db4-a91e-609973387971)
 
 <br>
 
