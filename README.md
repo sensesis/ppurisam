@@ -36,7 +36,7 @@
 <br>
 
 ### [회원가입&로그인]
-![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/790bea42-9385-4564-9bfa-9b471b26f36f)
+![ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/687e7945-dcc1-4e42-a7b2-fbd29291e51f)
 
 <br>
 
