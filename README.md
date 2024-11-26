@@ -36,7 +36,8 @@
 <br>
 
 ### [회원가입&로그인]
-<이미지>
+![KakaoTalk_Photo_2024-11-26-22-32-13 002 (online-video-cutter com)](https://github.com/user-attachments/assets/4e6e4035-e0ae-45ab-9183-a1f088299346)
+
 <br>
 
 ### [홈 화면]
@@ -56,8 +57,8 @@
 <br>
 
 ### [마이페이지]
-<이미지>
-<br>
+![KakaoTalk_Photo_2024-11-26-22-32-12 001 (online-video-cutter com)](https://github.com/user-attachments/assets/18ede28a-9627-438a-a240-377e747dd10e)
+
 <br>
 
 ## ⚙️시스템 아키텍처
