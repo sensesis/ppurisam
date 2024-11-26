@@ -36,7 +36,7 @@
 <br>
 
 ### [회원가입&로그인]
-![KakaoTalk_Photo_2024-11-26-22-32-13 002 (online-video-cutter com)](https://github.com/user-attachments/assets/4e6e4035-e0ae-45ab-9183-a1f088299346)
+![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/790bea42-9385-4564-9bfa-9b471b26f36f)
 
 <br>
 
@@ -45,7 +45,9 @@
 <br>
 
 ### [문자 보내기]
-<이미지>
+
+
+
 <br>
 
 ### [주소록]
