@@ -129,7 +129,8 @@
 <br>
 
 ## 📊모니터링&로그관리
-![image](https://github.com/user-attachments/assets/b3c621ee-5368-42c2-90a4-97ec769c4635)
+<img width="1285" alt="image" src="https://github.com/user-attachments/assets/54b7b08f-2e55-48d1-9789-a64fa00e3b05">
+
 
 
 ![image](https://github.com/user-attachments/assets/82359acc-eafb-4734-ad27-3d82fe7d20f2)
