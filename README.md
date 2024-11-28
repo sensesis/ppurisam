@@ -32,36 +32,50 @@
 <br>
 
 ### [회원가입&로그인]
-![ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/687e7945-dcc1-4e42-a7b2-fbd29291e51f)
+![회원가입, 로그인](https://github.com/user-attachments/assets/7387722c-c333-4ba9-b0af-02b51612b086)
 
 <br>
 
 ### [홈 화면]
-![온보딩화면](https://github.com/user-attachments/assets/bdb2d910-aba5-4b05-8a12-df63cf1bef97)
+![홈화면](https://github.com/user-attachments/assets/30d24a1a-3b76-4dc4-a680-39f73eb4e774)
 
 <br>
 
 ### [주소록]
-![ezgif com-video-to-gif-converter (2)](https://github.com/user-attachments/assets/cb15b9dc-4b09-4b4b-bac5-bfe4a0d31bf6)
+![주소록2](https://github.com/user-attachments/assets/a43ec374-03e4-4bd8-927f-421a553e8cce)
 
 <br>
 
 ### [문자 보내기]
+![문자 보내기](https://github.com/user-attachments/assets/f9f022b0-6826-4a81-b655-7d7a8f97b2d2)
 
+<br>
+
+#실제 문자 화면
+
+![문자보내기 문자](https://github.com/user-attachments/assets/d2c94491-5073-4adf-bd97-7090814a93e8)
+
+
+<br>
+
+### [발송조회]
+![발송조회](https://github.com/user-attachments/assets/fb899b93-e7a7-4686-8623-de05b4ef40e2)
 
 <br>
 
 
 ### [챗봇]
+![챗봇](https://github.com/user-attachments/assets/454a414e-9591-41af-9df0-e678a71fffa8)
+
+#실제 문자 화면
+
+![챗봇 문자](https://github.com/user-attachments/assets/8ce65e4d-573f-463c-a39f-4f35af38971d)
 
 <br>
 
-### [발송조회]
-<이미지>
-<br>
 
 ### [마이페이지]
-![ezgif com-video-to-gif-converter (3)](https://github.com/user-attachments/assets/5a59804d-8dd9-4db4-a91e-609973387971)
+![mypage](https://github.com/user-attachments/assets/63e86ab7-fe6e-4a45-bc7f-f2264d2b3210)
 
 <br>
 
