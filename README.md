@@ -96,7 +96,7 @@
 
 - Back-end
 
-|                                                                    Springboot                                                                    |                             MySQL                              |                                                                       ELK                                                                        |                             Nginx                              |                                                                 Prometheus / Grafana                                                                  |
+|                                                                    Springboot                                                                    |                             MySQL                              |                                                                       ELK+beat                                                                        |                             Nginx                              |                                                                 Prometheus / Grafana                                                                  |
 |:------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|
 | <img src="https://github.com/user-attachments/assets/58e04523-c570-4d5d-b37c-a286fa74f0e6" width="50" height="50" style="border-radius: 13px;" > | ![My Skills](https://skillicons.dev/icons?i=mysql&theme=light) | <img src="https://github.com/user-attachments/assets/368e20df-4a89-4a7d-9da1-126358f78180" width="50" height="50" style="border-radius: 13px;" > | ![My Skills](https://skillicons.dev/icons?i=nginx&theme=light) | ![My Skills](https://skillicons.dev/icons?i=prometheus&theme=light)&nbsp;&nbsp;&nbsp;![My Skills](https://skillicons.dev/icons?i=grafana&theme=light) |
 <br>
@@ -151,7 +151,7 @@
 <br>
 
 ## 📆개발 기간
-- 2024-09-20 ~ 2024-11-??
+- 2024-09-20 ~ 2024-11-28
   <br>
 
 ## 🤝팀 구성
