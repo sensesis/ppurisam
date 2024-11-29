@@ -1,6 +1,6 @@
 <h1>단체 문자 서비스 PPURISAM</h1>
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=CDE4AD&height=320&text=PPURISAM&fontSize=80&desc=AI와%20음성인식을%20이용한%20문자%20전송&descSize=40&descAlignY=70&fontColor=31A575&fontAlignY=40&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=waving&color=31A575&height=320&text=PPURISAM&fontSize=80&desc=AI와%20음성인식을%20이용한%20문자%20전송&descSize=40&descAlignY=70&fontColor=000000&fontAlignY=40&animation=fadeIn)
 
 <br>
 
