@@ -18,7 +18,7 @@
 <br>
 
 ## 📒 미디움
-🔗 [https://medium.com/@bkw54570/1201fcd2ced2](https://kittae.tistory.com/17)
+🔗 [[https://medium.com/@bkw54570/1201fcd2ced2](https://kittae.tistory.com/17)](https://kittae.tistory.com/17)
 
 <br>
 
