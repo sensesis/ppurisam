@@ -1,4 +1,4 @@
-<h1>[다우기술 X 한성대학교] 단체 문자 서비스 PPURISAM</h1>
+<h1>음성 인식 기반 AI 문자 및 이미지 전송 서비스 PPURISAM</h1>
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=31A575&height=320&text=PPURISAM&fontSize=80&desc=AI와%20음성인식을%20이용한%20문자%20전송&descSize=40&descAlignY=70&fontColor=FFFFFF&fontAlignY=40&animation=fadeIn)
 
