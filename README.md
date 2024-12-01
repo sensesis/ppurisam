@@ -1,10 +1,11 @@
-<h1>단체 문자 서비스 PPURISAM</h1>
+<h1>음성 인식 기반 AI 문자 및 이미지 전송 서비스 PPURISAM</h1>
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=CDE4AD&height=320&text=PPURISAM&fontSize=80&desc=AI와%20음성인식을%20이용한%20문자%20전송&descSize=40&descAlignY=70&fontColor=F8F8F8&fontAlignY=40&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=waving&color=31A575&height=320&text=PPURISAM&fontSize=80&desc=AI와%20음성인식을%20이용한%20문자%20전송&descSize=40&descAlignY=70&fontColor=FFFFFF&fontAlignY=40&animation=fadeIn)
 
 <br>
 
 ## 📝 목차
+- [미디움](#미디움)
 - [프로젝트 소개](#프로젝트-소개)
 - [주요 기능](#주요-기능)
 - [시스템 아키텍처](#시스템-아키텍처)
@@ -13,6 +14,11 @@
 - [API](#API)
 - [개발 기간](#개발-기간)
 - [팀 구성](#팀-구성)
+
+<br>
+
+## 📒 미디움
+🔗 [[https://medium.com/@bkw54570/1201fcd2ced2](https://kittae.tistory.com/17)](https://kittae.tistory.com/17)
 
 <br>
 
@@ -32,36 +38,50 @@
 <br>
 
 ### [회원가입&로그인]
-![ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/687e7945-dcc1-4e42-a7b2-fbd29291e51f)
+![회원가입, 로그인](https://github.com/user-attachments/assets/7387722c-c333-4ba9-b0af-02b51612b086)
 
 <br>
 
 ### [홈 화면]
-![온보딩화면](https://github.com/user-attachments/assets/bdb2d910-aba5-4b05-8a12-df63cf1bef97)
+![홈화면](https://github.com/user-attachments/assets/30d24a1a-3b76-4dc4-a680-39f73eb4e774)
 
 <br>
 
 ### [주소록]
-![ezgif com-video-to-gif-converter (2)](https://github.com/user-attachments/assets/cb15b9dc-4b09-4b4b-bac5-bfe4a0d31bf6)
+![주소록2](https://github.com/user-attachments/assets/a43ec374-03e4-4bd8-927f-421a553e8cce)
 
 <br>
 
 ### [문자 보내기]
+![문자 보내기](https://github.com/user-attachments/assets/f9f022b0-6826-4a81-b655-7d7a8f97b2d2)
 
+<br>
+
+#실제 문자 화면
+
+![문자보내기 문자](https://github.com/user-attachments/assets/d2c94491-5073-4adf-bd97-7090814a93e8)
+
+
+<br>
+
+### [발송조회]
+![발송조회](https://github.com/user-attachments/assets/fb899b93-e7a7-4686-8623-de05b4ef40e2)
 
 <br>
 
 
 ### [챗봇]
+![챗봇](https://github.com/user-attachments/assets/454a414e-9591-41af-9df0-e678a71fffa8)
+
+#실제 문자 화면
+
+![챗봇 문자](https://github.com/user-attachments/assets/8ce65e4d-573f-463c-a39f-4f35af38971d)
 
 <br>
 
-### [발송조회]
-<이미지>
-<br>
 
 ### [마이페이지]
-![ezgif com-video-to-gif-converter (3)](https://github.com/user-attachments/assets/5a59804d-8dd9-4db4-a91e-609973387971)
+![mypage](https://github.com/user-attachments/assets/63e86ab7-fe6e-4a45-bc7f-f2264d2b3210)
 
 <br>
 
@@ -82,7 +102,7 @@
 
 - Back-end
 
-|                                                                    Springboot                                                                    |                             MySQL                              |                                                                       ELK                                                                        |                             Nginx                              |                                                                 Prometheus / Grafana                                                                  |
+|                                                                    Springboot                                                                    |                             MySQL                              |                                                                       ELK+Beats                                                                        |                             Nginx                              |                                                                 Prometheus / Grafana                                                                  |
 |:------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|
 | <img src="https://github.com/user-attachments/assets/58e04523-c570-4d5d-b37c-a286fa74f0e6" width="50" height="50" style="border-radius: 13px;" > | ![My Skills](https://skillicons.dev/icons?i=mysql&theme=light) | <img src="https://github.com/user-attachments/assets/368e20df-4a89-4a7d-9da1-126358f78180" width="50" height="50" style="border-radius: 13px;" > | ![My Skills](https://skillicons.dev/icons?i=nginx&theme=light) | ![My Skills](https://skillicons.dev/icons?i=prometheus&theme=light)&nbsp;&nbsp;&nbsp;![My Skills](https://skillicons.dev/icons?i=grafana&theme=light) |
 <br>
@@ -137,7 +157,7 @@
 <br>
 
 ## 📆개발 기간
-- 2024-09-20 ~ 2024-11-??
+- 2024-09-20 ~ 2024-11-28
   <br>
 
 ## 🤝팀 구성
@@ -145,4 +165,5 @@
 |                                                                           **배건우**                                                                           |                                                                             **진기태**                                                                             |                                       **박진성**                                        |                                       **박지원**                                        |                                       **장원진**                                        |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------:|
 |                                                         <center>팀장<br>Frontend<br>Backend</center>                                                          |                                                              <center>Frontend<br>Backend</center>                                                               |                               <center>Backend</center>                               |                               <center>Backend</center>                               |                              <center>Frontend</center>                               | 
-| [<img src="https://github.com/user-attachments/assets/a75ab739-e053-4f9d-89f7-7bf33cecb115" height=150 width=150> <br/> @bkw535](https://github.com/bkw535) | [<img src="https://github.com/user-attachments/assets/b65e1842-38b8-4164-8319-12b5393e479a" height=150 width=150> <br/> @sensesis](https://github.com/sensesis) | [<img src="" height=150 width=150> <br/> @Jinseong01](https://github.com/Jinseong01) | [<img src="" height=150 width=150> <br/> @jiwonp7747](https://github.com/jiwonp7747) | [<img src="" height=150 width=150> <br/> @wonjinjang](https://github.com/wonjinjang) |
+| [<img src="https://github.com/user-attachments/assets/a75ab739-e053-4f9d-89f7-7bf33cecb115" height=150 width=150> <br/> @bkw535](https://github.com/bkw535) | [<img src="https://github.com/user-attachments/assets/b65e1842-38b8-4164-8319-12b5393e479a" height=150 width=150> <br/> @sensesis](https://github.com/sensesis) | [<img src="" height=150 width=150> <br/> @Jinseong01](https://github.com/Jinseong01) | [<img src="" height=150 width=150> <br/> @jiwonp7747](https://github.com/jiwonp7747) | [<img src="https://github.com/user-attachments/assets/ce943540-5c2c-4892-90f9-847da34c70da" height=150 width=150> <br/> @wonjinjang](https://github.com/wonjinjang) 
+
