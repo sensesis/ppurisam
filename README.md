@@ -12,6 +12,7 @@
 - [기술 스택](#기술-스택)
 - [ERD](#ERD)
 - [API](#API)
+- [사용방법](#사용방법)
 - [개발 기간](#개발-기간)
 - [팀 구성](#팀-구성)
 
@@ -137,24 +138,49 @@
 
 <br>
 
-## 💾ERD
+## 💾 ERD
 <img src="https://github.com/user-attachments/assets/db930415-1ebd-4161-86b2-5a218c2fd607">
 <br>
 <br>
 
-## 🌐API
+## 🌐 API
 <img src="https://github.com/user-attachments/assets/b7f46df1-b48f-4069-9129-7230b10cff81">
 <img src="https://github.com/user-attachments/assets/461211d8-3b34-4db8-882b-a11bd565ccba">
 <br>
 <br>
 
-## 📊모니터링&로그관리
+## 📊 모니터링&로그관리
 <img width="1285" alt="image" src="https://github.com/user-attachments/assets/54b7b08f-2e55-48d1-9789-a64fa00e3b05">
 
 
 
 ![image](https://github.com/user-attachments/assets/82359acc-eafb-4734-ad27-3d82fe7d20f2)
 <br>
+
+## 사용방법
+### 처음부터 서브모듈을 고려하여 한번에 클론
+```bash
+git clone --recurse-submodules https://github.com/SWPC-Team-You-Can-Do-It/ppurisam.git
+```
+
+### 이미 일반 클론을 받은 경우 서브모듈 초기화
+```bash
+git submodule update --init --recursive
+```
+
+### 프로그램 실행 전 ppurisam, Frontend, Backend에 .env파일 작성
+### Backend/src/main/resources/ 안에 application.properties파일 작성
+
+### 프로그램 실행
+```bash
+docker compose up -d --build
+```
+
+### 프로그램 종료
+```bash
+docker compose down
+```
+
 
 ## 📆개발 기간
 - 2024-09-20 ~ 2024-11-28
