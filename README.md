@@ -171,6 +171,19 @@ git submodule update --init --recursive
 ### 프로그램 실행 전 ppurisam, Frontend, Backend에 .env파일 작성
 ### Backend/src/main/resources/ 안에 application.properties파일 작성
 
+### 도커 설치 확인
+```bash
+docker --version
+docker-compose --version
+```
+
+### 설치되어있지 않은 경우
+```bash
+sudo apt install -y docker.io
+sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+```
+
 ### 프로그램 실행
 ```bash
 docker compose up -d --build
