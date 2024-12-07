@@ -157,7 +157,7 @@
 ![image](https://github.com/user-attachments/assets/82359acc-eafb-4734-ad27-3d82fe7d20f2)
 <br>
 
-## 사용방법
+## 사용방법 - 해상도는 1512x982에서 정상적으로 보입니다!
 ### 처음부터 서브모듈을 고려하여 한번에 클론
 ```bash
 git clone --recurse-submodules https://github.com/SWPC-Team-You-Can-Do-It/ppurisam.git
